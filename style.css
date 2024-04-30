@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.apresentacao {
+    font-size: 16px;
+    font-family: 'Young Serif', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 3%;
+}
+
+img {
+    border-radius: 10px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    margin-left: 15%;
+}
+
+h1{
+    margin-left: 50px;
+}
