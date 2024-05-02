@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 * {
     margin: 0;
@@ -19,10 +20,78 @@ img {
     padding: 0px;
     display: flex;
     justify-content: center;
-    width: 1000px;
-    margin-left: 15%;
+    width: 85%;
+    margin-top: 30px;
 }
 
 h1{
-    margin-left: 50px;
+    margin-left: 45px;
+    margin-top: 3%;
+    font-size: 35px;
+    margin-right: 46%;
+    font-weight: 400;
+}
+
+body{
+    background-color: #f4e4dc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    background-color: white;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+div {
+    font-family: "Outfit", sans-serif;
+    font-weight: 350;
+    justify-content:flex-start;
+}
+
+.preparacao-tempo {
+    font-family: "Outfit", sans-serif;
+    color:#720f3a;
+    font-size: 20px;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 7px;
+    margin-left: 10px;
+}
+
+.timer_receita{
+    justify-content: start;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    background-color:#fcf4fc;
+    width: 80%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.li{
+    margin-left: 30px;
+}
+
+.ingredientes_receita{
+    font-size: 30px;
+    font-weight: 200;
+    color: #916657;
+    margin-left: -65%;
+    margin-top: 3%;
+}
+
+.li_2{
+    margin-left: 100px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 350;
 }
